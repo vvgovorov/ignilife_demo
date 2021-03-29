@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="365" viewBox="0 0 1920 365">
+    <g fill="none" fill-rule="evenodd" stroke="#4FC0E8" transform="translate(0 10)">
+        <path stroke-width="20" d="M44.298 239.757c90.961 61.176 184.108 61.176 279.439 0C466.734 147.993 401.547 0 615.287 0s217.982 396.492 444.625 286.113c226.642-110.38 377.355 8.218 463.675 33.693 86.32 25.475 247.836 72.396 361.834-117.567"/>
+        <circle cx="1889.416" cy="197" r="22.5" fill="#FFF" stroke-width="15"/>
+        <circle cx="982.553" cy="303" r="22.5" fill="#FFF" stroke-width="15"/>
+        <circle cx="30.584" cy="227" r="22.5" fill="#FFF" stroke-width="15"/>
+    </g>
+</svg>

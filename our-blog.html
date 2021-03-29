@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="none" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/third-party/bootstrap.min.css">
+    <link rel="stylesheet" href="css/third-party/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/ourBlog.css">
+    <link rel="shortcut icon" href="favicon.ico?v3" type="image/x-icon">
+    <title>Our blog</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row section header-with-bg">
+            <div class="background-main-pattern rounded-bottom">
+                <div class="background-pattern parallax"></div>
+            </div>
+            <div class="col-xs-12 col-lg-12">
+                <div class="row header">
+                    <div class="col-xs-12 hidden-lg">
+                        <div class="header-wrapper header-mobile">
+                            <div class="row vertical-align">
+                                <div class="col-xs-4 pull-start"></div>
+                                <div class="col-xs-4">
+                                    <a class="icon-link" href="/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" id="imagesIconsLogoIcon" width="24"
+                                            height="29" viewBox="0 0 24 29" class="chat-icon center-block">
+                                            <g fill="#FFF" fill-rule="nonzero" transform="translate(0 .574)">
+                                                <circle cx="11.827" cy="14.135" r="4.904" />
+                                                <path
+                                                    d="M20.172 8.182C18.127 6.099 11.803-.025 11.829 0c.026-.025-6.528 6.433-8.342 8.184C1.673 9.936 0 12.658 0 16.7c0 6.39 5.295 11.57 11.827 11.57s11.827-5.18 11.827-11.57c0-4.053-1.442-6.445-3.484-8.516l.002-.002zm-8.28 14.009c-4.216.01-7.643-3.325-7.655-7.45 0-2.607.908-4.177 2.259-5.489l5.4-5.17 5.41 5.17c1.35 1.314 2.257 2.882 2.257 5.49a7.39 7.39 0 0 1-2.256 5.28 7.725 7.725 0 0 1-5.414 2.169z" />
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-xs-4 pull-end">
+                                    <a class="icon-link" data-toggle="modal" data-target="#menuModal">
+                                        <div class="menu-button">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 visible-lg-block ">
+                        <div class="header-wrapper header-desktop">
+                            <div class="row vertical-align">
+                                <div class="col-lg-2 pull-start">
+                                    <a class="icon-link" href="/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" id="imagesIconsLogoText" width="130"
+                                            height="39" viewBox="0 0 130 39" class="center-block">
+                                            <g fill="#FFF" fill-rule="nonzero">
+                                                <g transform="translate(0 .746)">
+                                                    <circle cx="15.375" cy="18.375" r="6.375" />
+                                                    <path
+                                                        d="M26.223 10.636C23.566 7.93 15.344-.033 15.378 0c.034-.033-8.487 8.363-10.845 10.64C2.175 12.915 0 16.455 0 21.71c0 8.306 6.884 15.04 15.375 15.04S30.75 30.016 30.75 21.71c0-5.27-1.875-8.378-4.53-11.07l.003-.004zM15.461 28.848c-5.482.014-9.937-4.322-9.953-9.685 0-3.39 1.18-5.43 2.936-7.135l7.02-6.72 7.034 6.72c1.756 1.708 2.933 3.746 2.933 7.135a9.607 9.607 0 0 1-2.932 6.865 10.043 10.043 0 0 1-7.038 2.82z" />
+                                                </g>
+                                                <path
+                                                    d="M48.178 8.631a2.096 2.096 0 0 0-1.53.625c-.41.411-.642.975-.648 1.566.008.599.245 1.17.66 1.586.414.417.972.645 1.55.635 1.182-.017 2.142-.996 2.178-2.22a2.279 2.279 0 0 0-.667-1.57 2.121 2.121 0 0 0-1.543-.622zM49.833 14.937H47.15a.476.476 0 0 0-.393.155.505.505 0 0 0-.125.413v14.654c-.012.15.043.3.151.403a.474.474 0 0 0 .402.129h2.682c.347 0 .518-.141.518-.568V15.51a.532.532 0 0 0-.145-.42.502.502 0 0 0-.407-.153zM67.35 14.965a5.45 5.45 0 0 0-3.353 1.147.527.527 0 0 1-.63 0 7.385 7.385 0 0 0-4.049-1.177c-3.315 0-6.353 2.496-6.353 5.751 0 1.906.814 3.465 1.92 4.367.245.207.14.38-.07.52-1.15.727-1.92 2.154-1.92 3.23 0 1.215.209 1.942.697 2.599.209.27.453.485 1.118.38 1.711-.243 4.085-.555 5.585-.555 1.397 0 3.42.347 3.42 1.766 0 .832-.944 1.616-1.432 1.906-.488.291-.594.59-.35.902l1.085 1.616c.244.347.697.207 1.15.035 1.78-.808 3.35-2.738 3.35-4.577 0-3.57-3.63-4.747-7.297-4.747-1.16.019-2.315.135-3.455.347-.139.035-.272-.035-.21-.269.272-.832.98-1.664 1.921-1.699h.838c3.665 0 6.597-2.496 6.597-5.824a5.043 5.043 0 0 0-.453-2.078.286.286 0 0 1 .01-.273.29.29 0 0 1 .234-.142 7.378 7.378 0 0 1 1.712-.07c.453.035.523-.105.523-.45v-2.113c.003-.385-.135-.592-.588-.592zm-8.03 8.387c-1.627 0-2.617-1.177-2.617-2.496 0-1.32 1.085-2.563 2.791-2.563a2.552 2.552 0 0 1 1.862.725c.494.484.767 1.148.756 1.838.003 1.351-.977 2.493-2.791 2.493v.003zM77.029 14.935c-1.235 0-2.825.525-3.605 1.26-.175.21-.354.244-.387 0a2.427 2.427 0 0 1-.036-.525c0-.384-.14-.526-.494-.526h-2.745a.508.508 0 0 0-.422.143.498.498 0 0 0-.144.418v14.46a.487.487 0 0 0 .155.399c.11.102.261.149.41.127h2.716a.533.533 0 0 0 .436-.138.523.523 0 0 0 .165-.423v-9.21c0-1.54 1.06-2.658 2.685-2.658 1.944 0 2.746 1.119 2.746 2.697v9.207a.487.487 0 0 0 .154.398c.11.102.262.149.411.127h2.746a.497.497 0 0 0 .402-.153c.103-.11.15-.26.128-.408v-9.25c.01-3.496-1.612-5.945-5.321-5.945zM88.695 14.937h-2.683a.476.476 0 0 0-.392.155.505.505 0 0 0-.125.413v14.654c-.013.15.043.3.15.403a.474.474 0 0 0 .402.129h2.683c.346 0 .518-.141.518-.568V15.51a.532.532 0 0 0-.145-.42.502.502 0 0 0-.408-.153zM87.04 8.631a2.094 2.094 0 0 0-1.53.625 2.253 2.253 0 0 0-.648 1.566c.008.6.246 1.17.66 1.587a2.13 2.13 0 0 0 1.551.634c1.182-.017 2.142-.996 2.177-2.221-.027-1.238-1.017-2.219-2.21-2.191zM98.17 27.818h-.397c-1.152 0-1.44-.421-1.44-1.762V9.09a.43.43 0 0 0-.142-.344.451.451 0 0 0-.362-.113h-2.974a.453.453 0 0 0-.351.14.432.432 0 0 0-.116.353v17.375c0 3.31 1.119 4.824 4.392 4.824.409.005.817-.019 1.223-.071.397-.036.649-.14.649-.635V28.43c.008-.227-.065-.613-.482-.613zM103.74 14.937h-2.684a.476.476 0 0 0-.393.155.505.505 0 0 0-.125.413v14.654c-.012.15.043.3.151.403a.475.475 0 0 0 .402.129h2.684c.347 0 .516-.141.516-.568V15.51a.53.53 0 0 0-.143-.42.5.5 0 0 0-.408-.154zM102.084 8.631a2.096 2.096 0 0 0-1.53.625c-.41.411-.643.975-.648 1.566.007.599.244 1.17.659 1.587a2.13 2.13 0 0 0 1.55.634c1.184-.015 2.145-.995 2.179-2.221a2.279 2.279 0 0 0-.667-1.57 2.121 2.121 0 0 0-1.543-.621zM115.54 8.39a8.122 8.122 0 0 0-2.568-.39c-2.977 0-4.633 2.152-4.633 4.66v1.975c0 .246-.102.386-.405.386h-1.216a.476.476 0 0 0-.387.135.521.521 0 0 0-.155.394v2.044a.495.495 0 0 0 .133.39.451.451 0 0 0 .375.14h1.216c.305 0 .405.246.405.528v11.51a.505.505 0 0 0 .148.4.46.46 0 0 0 .393.129h2.604a.46.46 0 0 0 .394-.128.505.505 0 0 0 .148-.401V18.617c0-.25.068-.494.473-.494h2.567a.449.449 0 0 0 .374-.138.492.492 0 0 0 .13-.39V15.55a.521.521 0 0 0-.153-.394.476.476 0 0 0-.388-.135h-2.59c-.305 0-.405-.107-.405-.353v-1.483c0-1.022.507-1.729 1.487-1.729.444.019.885.09 1.314.211.61.178.88.071.983-.422l.404-2.009c.098-.6-.31-.74-.649-.846zM123.411 14.935c-3.871 0-6.581 2.444-6.581 6.022v3.888c0 3.511 2.638 5.851 6.65 5.851 2.428 0 4.714-.93 5.947-3.062.21-.412-.036-.652-.457-.93l-1.725-1.07c-.421-.267-.599-.104-.845.171-.67.802-1.583 1.618-2.991 1.618-1.62 0-2.71-1.238-2.71-2.72v-.51c0-.31.21-.586.703-.586h7.604a.992.992 0 0 0 .723-.305.947.947 0 0 0 .261-.727v-1.618c0-3.714-2.78-6.022-6.579-6.022zm2.215 6.15h-4.257c-.46 0-.599-.17-.599-.481.14-1.308 1.127-2.407 2.674-2.407 1.367 0 2.5.861 2.674 2.236.036.353-.104.66-.492.66v-.008z" />
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-lg-offset-6 header-links-wrapper">
+                                    <a class="header-link try-it link" href="/#tryItForFree">try it for free</a>
+                                    <a class="header-link login link" href="404.html"
+                                        rel="noopener noreferrer">login</a>
+                                    <div id="languageDropdown" class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle" type="button"
+                                            id="dropdownMenuHeader" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="true">En<span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" id="dropdownLanguageOpenedMenu"
+                                            aria-labelledby="dropdownMenuHeader">
+                                            <li><a href="#">de</a></li>
+                                            <li><a href="#">Fr</a></li>
+                                        </ul>
+                                    </div>
+                                    <a class="icon-link" data-toggle="modal" data-target="#menuModal">
+                                        <div class="menu-button">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row title">
+                <div class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
+                    <p class="text-center">OUR BLOG</p>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3">
+                    <p class="text-center">
+                        Things are moving at Ignilife, here are our latest news
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row section body">
+            <div class="col-lg-12 col-xs-12">
+                <div class="row data-wrapper">
+                    <a class="item" href="our-blog-opened.html">
+                        <div class="img-wrapper">
+                            <div class="img-container">
+                                <img src="images/our-blog/1.jpg" />
+                            </div>
+                        </div>
+                        <div class="data">
+                            <p class="date">21 APR 2020</p>
+                            <ul class="tags">
+                                <li class="tag">Fitness</li>
+                                <li class="tag">Get active</li>
+                                <li class="tag">Health</li>
+                            </ul>
+                            <p class="name">A new era for cyling</p>
+                            <div class="text visible-lg-block">
+                                The lack of cars and commuters has meant cyclists of all abilities can ride on the
+                                normally
+                                busy roads with a new-found confidence. While gyms and outdoor sports have been out of
+                                action,
+                                it has proven to be a fantastic way for whole families to get active together safely.
+                            </div>
+                        </div>
+                    </a>
+                    <a class="item" href="our-blog-opened.html">
+                        <div class="img-wrapper">
+                            <div class="img-container">
+                                <img src="images/our-blog/2.jpg" />
+                            </div>
+                        </div>
+                        <div class="data">
+                            <p class="date">15 FEB 2020</p>
+                            <ul class="tags">
+                                <li class="tag">Fitness</li>
+                                <li class="tag">Health</li>
+                                <li class="tag">Mental Health</li>
+                            </ul>
+                            <p class="name">Work out to work better: healthy body, healthy mind, healthy productivity
+                            </p>
+                            <div class="text visible-lg-block">
+                                We all know that exercise is important for physical and mental health, but did you know
+                                that
+                                regular work outs can actually improve your productivity and help you to work more
+                                efficiently?
+                            </div>
+                        </div>
+                    </a>
+                    <a class="item" href="our-blog-opened.html">
+                        <div class="img-wrapper">
+                            <div class="img-container">
+                                <img src="images/our-blog/3.jpg" />
+                            </div>
+                        </div>
+                        <div class="data">
+                            <p class="date">23 OCT 2019</p>
+                            <ul class="tags">
+                                <li class="tag">Fitness</li>
+                                <li class="tag">Food</li>
+                                <li class="tag">Get active</li>
+                                <li class="tag">Health</li>
+                            </ul>
+                            <p class="name">How to keep on top of your weight management when working from home</p>
+                            <div class="text visible-lg-block">
+                                If you currently exercise regularly, such as taking part in several spin classes a week
+                                or
+                                joining a BLT class here or there then this advice may be of use to you. The same goes
+                                for
+                                the people sat at home thinking "I need to lose weight", but now have no access to a
+                                gym.
+                                Well fear not, I am going to let you into a little secret… It doesn’t really matter!
+                            </div>
+                        </div>
+                    </a>
+                    <a class="item" href="our-blog-opened.html">
+                        <div class="img-wrapper">
+                            <div class="img-container">
+                                <img src="images/our-blog/4.jpg" />
+                            </div>
+                        </div>
+                        <div class="data">
+                            <p class="date">12 JUL 2019</p>
+                            <ul class="tags">
+                                <li class="tag">Fitness</li>
+                                <li class="tag">Sport</li>
+                            </ul>
+                            <p class="name">You don’t need to be a seasoned runner to put in a marathon effort</p>
+                            <div class="text visible-lg-block">
+                                With milder weather and longer, lighter evenings, Spring/Summer marks the start of the
+                                running
+                                calendar. If you’ve been thinking about getting your trainers back on, or fancy the idea
+                                of
+                                getting your family into running for the first time, you couldn’t have picked a better
+                                time to do so.
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row section footer-wrapper">
+            <div class="background-main-pattern">
+                <div class="background-pattern parallax"></div>
+            </div>
+            <div class="col-lg-12 col-xs-12">
+                <div class="row max-width-container">
+                    <div class="col-lg-8 col-xs-12 col-lg-offset-2">
+                        <div class="row footer">
+                            <div class="col-xs-12 col-lg-5 ">
+                                <p class="title">Keep in touch</p>
+                                <p class="text">
+                                    Be among the first to know market insights, company news, product releases by
+                                    subscribing to our
+                                    monthly newsletter.
+                                </p>
+                                <div class="email-footer-wrapper submit-inline white">
+                                    <div class="hbspt-form">
+                                        <form novalidate="" class="hs-form">
+                                            <div class="hs-form-field">
+                                                <input type="email" name="email" placeholder="Your email address"
+                                                    autocomplete="off" />
+                                            </div>
+                                            <div class="hs_submit hs-submit">
+                                                <div class="actions">
+                                                    <input type="submit" value="Try it for free"
+                                                        class="hs-button primary large">
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="submitted-message">
+                                            <p>Thanks for submiting the form!</p>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-lg-offset-2 col-xs-12">
+                                <div class="row links-wrapper">
+                                    <div class="col-xs-6 col-lg-12"><a class="link" href="resources.html">Resources</a>
+                                    </div>
+                                    <div class="col-xs-6 col-lg-12"><a class="link" href="contacts.html">Contact us</a>
+                                    </div>
+                                    <div class="col-xs-6 col-lg-12"><a class="link" href="join-our-team.html">Join our
+                                            Team</a></div>
+                                    <div class="col-xs-6 col-lg-12"><a class="link" href="media.html">Media</a></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-lg-offset-1 col-xs-12">
+                                <div class="row social-links-wrapper">
+                                    <div class="col-xs-3 col-lg-6 link-wrapper">
+                                        <a class="icon-link" target="_blank"><img
+                                                src="images/socials-footer/vimeo-normal.svg" /></a>
+                                    </div>
+                                    <div class="col-xs-3 col-lg-6 link-wrapper">
+                                        <a class="icon-link" target="_blank"><img
+                                                src="images/socials-footer/fb-normal.svg" /></a>
+                                    </div>
+                                    <div class="col-xs-3 col-lg-6 link-wrapper">
+                                        <a class="icon-link" target="_blank"><img
+                                                src="images/socials-footer/linkedin-normal.svg" /></a>
+                                    </div>
+                                    <div class="col-xs-3 col-lg-6 link-wrapper">
+                                        <a class="icon-link" target="_blank"><img
+                                                src="images/socials-footer/twitter-normal.svg" /></a>
+                                    </div>
+                                    <div class="col-xs-12 col-lg-12 text-center logo-container">
+                                        <a class="icon-link" href="/"><img width="113"
+                                                src="images/icons/logo-text.svg" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-xs-12">
+                                <p class="copyright">&copy; 2020 Ignilife</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <div class="header-main-wrapper hidden-lg">
+                        <div class="header-wrapper">
+                            <div class="text-left"></div>
+                            <div class="text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" id="imagesIconsLogoIcon" width="24" height="29"
+                                    viewBox="0 0 24 29" class="blue center-block">
+                                    <g fill="#FFF" fill-rule="nonzero" transform="translate(0 .574)">
+                                        <circle cx="11.827" cy="14.135" r="4.904" />
+                                        <path
+                                            d="M20.172 8.182C18.127 6.099 11.803-.025 11.829 0c.026-.025-6.528 6.433-8.342 8.184C1.673 9.936 0 12.658 0 16.7c0 6.39 5.295 11.57 11.827 11.57s11.827-5.18 11.827-11.57c0-4.053-1.442-6.445-3.484-8.516l.002-.002zm-8.28 14.009c-4.216.01-7.643-3.325-7.655-7.45 0-2.607.908-4.177 2.259-5.489l5.4-5.17 5.41 5.17c1.35 1.314 2.257 2.882 2.257 5.49a7.39 7.39 0 0 1-2.256 5.28 7.725 7.725 0 0 1-5.414 2.169z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="text-right">
+                                <button type="button" class="close icon-link" data-dismiss="modal" aria-label="Close">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="imagesIconsClose" width="18" height="18"
+                                        viewBox="0 0 18 18" class="blue center-block">
+                                        <path fill="#FFF" fill-rule="evenodd"
+                                            d="M9 7.205l5.983-5.983a1.27 1.27 0 1 1 1.795 1.795L10.795 9l5.983 5.983a1.27 1.27 0 0 1-1.795 1.795L9 10.795l-5.983 5.983a1.27 1.27 0 0 1-1.795-1.795L7.205 9 1.222 3.017a1.27 1.27 0 1 1 1.795-1.795L9 7.205z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-main-wrapper visible-lg-block">
+                        <div class="header-wrapper">
+                            <div class="text-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" id="imagesIconsLogoText" width="130" height="39"
+                                    viewBox="0 0 130 39" class="blue center-block">
+                                    <g fill="#FFF" fill-rule="nonzero">
+                                        <g transform="translate(0 .746)">
+                                            <circle cx="15.375" cy="18.375" r="6.375" />
+                                            <path
+                                                d="M26.223 10.636C23.566 7.93 15.344-.033 15.378 0c.034-.033-8.487 8.363-10.845 10.64C2.175 12.915 0 16.455 0 21.71c0 8.306 6.884 15.04 15.375 15.04S30.75 30.016 30.75 21.71c0-5.27-1.875-8.378-4.53-11.07l.003-.004zM15.461 28.848c-5.482.014-9.937-4.322-9.953-9.685 0-3.39 1.18-5.43 2.936-7.135l7.02-6.72 7.034 6.72c1.756 1.708 2.933 3.746 2.933 7.135a9.607 9.607 0 0 1-2.932 6.865 10.043 10.043 0 0 1-7.038 2.82z" />
+                                        </g>
+                                        <path
+                                            d="M48.178 8.631a2.096 2.096 0 0 0-1.53.625c-.41.411-.642.975-.648 1.566.008.599.245 1.17.66 1.586.414.417.972.645 1.55.635 1.182-.017 2.142-.996 2.178-2.22a2.279 2.279 0 0 0-.667-1.57 2.121 2.121 0 0 0-1.543-.622zM49.833 14.937H47.15a.476.476 0 0 0-.393.155.505.505 0 0 0-.125.413v14.654c-.012.15.043.3.151.403a.474.474 0 0 0 .402.129h2.682c.347 0 .518-.141.518-.568V15.51a.532.532 0 0 0-.145-.42.502.502 0 0 0-.407-.153zM67.35 14.965a5.45 5.45 0 0 0-3.353 1.147.527.527 0 0 1-.63 0 7.385 7.385 0 0 0-4.049-1.177c-3.315 0-6.353 2.496-6.353 5.751 0 1.906.814 3.465 1.92 4.367.245.207.14.38-.07.52-1.15.727-1.92 2.154-1.92 3.23 0 1.215.209 1.942.697 2.599.209.27.453.485 1.118.38 1.711-.243 4.085-.555 5.585-.555 1.397 0 3.42.347 3.42 1.766 0 .832-.944 1.616-1.432 1.906-.488.291-.594.59-.35.902l1.085 1.616c.244.347.697.207 1.15.035 1.78-.808 3.35-2.738 3.35-4.577 0-3.57-3.63-4.747-7.297-4.747-1.16.019-2.315.135-3.455.347-.139.035-.272-.035-.21-.269.272-.832.98-1.664 1.921-1.699h.838c3.665 0 6.597-2.496 6.597-5.824a5.043 5.043 0 0 0-.453-2.078.286.286 0 0 1 .01-.273.29.29 0 0 1 .234-.142 7.378 7.378 0 0 1 1.712-.07c.453.035.523-.105.523-.45v-2.113c.003-.385-.135-.592-.588-.592zm-8.03 8.387c-1.627 0-2.617-1.177-2.617-2.496 0-1.32 1.085-2.563 2.791-2.563a2.552 2.552 0 0 1 1.862.725c.494.484.767 1.148.756 1.838.003 1.351-.977 2.493-2.791 2.493v.003zM77.029 14.935c-1.235 0-2.825.525-3.605 1.26-.175.21-.354.244-.387 0a2.427 2.427 0 0 1-.036-.525c0-.384-.14-.526-.494-.526h-2.745a.508.508 0 0 0-.422.143.498.498 0 0 0-.144.418v14.46a.487.487 0 0 0 .155.399c.11.102.261.149.41.127h2.716a.533.533 0 0 0 .436-.138.523.523 0 0 0 .165-.423v-9.21c0-1.54 1.06-2.658 2.685-2.658 1.944 0 2.746 1.119 2.746 2.697v9.207a.487.487 0 0 0 .154.398c.11.102.262.149.411.127h2.746a.497.497 0 0 0 .402-.153c.103-.11.15-.26.128-.408v-9.25c.01-3.496-1.612-5.945-5.321-5.945zM88.695 14.937h-2.683a.476.476 0 0 0-.392.155.505.505 0 0 0-.125.413v14.654c-.013.15.043.3.15.403a.474.474 0 0 0 .402.129h2.683c.346 0 .518-.141.518-.568V15.51a.532.532 0 0 0-.145-.42.502.502 0 0 0-.408-.153zM87.04 8.631a2.094 2.094 0 0 0-1.53.625 2.253 2.253 0 0 0-.648 1.566c.008.6.246 1.17.66 1.587a2.13 2.13 0 0 0 1.551.634c1.182-.017 2.142-.996 2.177-2.221-.027-1.238-1.017-2.219-2.21-2.191zM98.17 27.818h-.397c-1.152 0-1.44-.421-1.44-1.762V9.09a.43.43 0 0 0-.142-.344.451.451 0 0 0-.362-.113h-2.974a.453.453 0 0 0-.351.14.432.432 0 0 0-.116.353v17.375c0 3.31 1.119 4.824 4.392 4.824.409.005.817-.019 1.223-.071.397-.036.649-.14.649-.635V28.43c.008-.227-.065-.613-.482-.613zM103.74 14.937h-2.684a.476.476 0 0 0-.393.155.505.505 0 0 0-.125.413v14.654c-.012.15.043.3.151.403a.475.475 0 0 0 .402.129h2.684c.347 0 .516-.141.516-.568V15.51a.53.53 0 0 0-.143-.42.5.5 0 0 0-.408-.154zM102.084 8.631a2.096 2.096 0 0 0-1.53.625c-.41.411-.643.975-.648 1.566.007.599.244 1.17.659 1.587a2.13 2.13 0 0 0 1.55.634c1.184-.015 2.145-.995 2.179-2.221a2.279 2.279 0 0 0-.667-1.57 2.121 2.121 0 0 0-1.543-.621zM115.54 8.39a8.122 8.122 0 0 0-2.568-.39c-2.977 0-4.633 2.152-4.633 4.66v1.975c0 .246-.102.386-.405.386h-1.216a.476.476 0 0 0-.387.135.521.521 0 0 0-.155.394v2.044a.495.495 0 0 0 .133.39.451.451 0 0 0 .375.14h1.216c.305 0 .405.246.405.528v11.51a.505.505 0 0 0 .148.4.46.46 0 0 0 .393.129h2.604a.46.46 0 0 0 .394-.128.505.505 0 0 0 .148-.401V18.617c0-.25.068-.494.473-.494h2.567a.449.449 0 0 0 .374-.138.492.492 0 0 0 .13-.39V15.55a.521.521 0 0 0-.153-.394.476.476 0 0 0-.388-.135h-2.59c-.305 0-.405-.107-.405-.353v-1.483c0-1.022.507-1.729 1.487-1.729.444.019.885.09 1.314.211.61.178.88.071.983-.422l.404-2.009c.098-.6-.31-.74-.649-.846zM123.411 14.935c-3.871 0-6.581 2.444-6.581 6.022v3.888c0 3.511 2.638 5.851 6.65 5.851 2.428 0 4.714-.93 5.947-3.062.21-.412-.036-.652-.457-.93l-1.725-1.07c-.421-.267-.599-.104-.845.171-.67.802-1.583 1.618-2.991 1.618-1.62 0-2.71-1.238-2.71-2.72v-.51c0-.31.21-.586.703-.586h7.604a.992.992 0 0 0 .723-.305.947.947 0 0 0 .261-.727v-1.618c0-3.714-2.78-6.022-6.579-6.022zm2.215 6.15h-4.257c-.46 0-.599-.17-.599-.481.14-1.308 1.127-2.407 2.674-2.407 1.367 0 2.5.861 2.674 2.236.036.353-.104.66-.492.66v-.008z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="text-right">
+                                <button type="button" class="close icon-link" data-dismiss="modal" aria-label="Close">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="imagesIconsClose" width="18" height="18"
+                                        viewBox="0 0 18 18" class="white center-block">
+                                        <path fill="#FFF" fill-rule="evenodd"
+                                            d="M9 7.205l5.983-5.983a1.27 1.27 0 1 1 1.795 1.795L10.795 9l5.983 5.983a1.27 1.27 0 0 1-1.795 1.795L9 10.795l-5.983 5.983a1.27 1.27 0 0 1-1.795-1.795L7.205 9 1.222 3.017a1.27 1.27 0 1 1 1.795-1.795L9 7.205z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-body">
+                    <div class=" controls hidden-lg">
+                        <a href="404.html" class="login-link" rel="noopener noreferrer">
+                            <button type="button" class="btn login stroke btn-block">Login</button>
+                        </a>
+                        <div id="languageDropdown" class="dropdown menu">
+                            <button class="btn stroke btn-block dropdown-toggle" type="button" id="dropdownMenu"
+                                data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="true">En<span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu full-width" id="dropdownLanguageOpenedMenu"
+                                aria-labelledby="dropdownMenu">
+                                <li><a href="#">de</a></li>
+                                <li><a href="#">fr</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="/">HOME</a></li>
+                        <li class="list-group-item"><a href="request-demo.html">REQUEST DEMO</a></li>
+                        <li class="list-group-item"><a href="pricing.html">PRICING</a></li>
+                        <li class="list-group-item"><a href="about-us.html">ABOUT</a></li>
+                        <li class="list-group-item"><a href="our-blog.html">BLOG</a></li>
+                        <li class="list-group-item hidden-lg"><a href="contacts.html">CONTACT US</a></li>
+                        <li class="list-group-item hidden-lg"><a href="join-our-team.html">JOIN OUR TEAM</a></li>
+                        <li class="list-group-item hidden-lg"><a href="media.html">MEDIA</a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <div class="footer mobile hidden-lg">
+                        <a href="/#tryItForFree" class="try-it" onclick="$('#menuModal').modal('hide')">
+                            <button type="button" class="btn pink btn-block">Try it for free</button>
+                        </a>
+                    </div>
+                    <div class="footer desktop visible-lg-block">
+                        <div class="links-wrapper">
+                            <a class="link" href="contacts.html">Contact us</a>
+                            <a class="link" href="resources.html">Resources</a>
+                            <a class="link" href="join-our-team.html">Join our Team</a>
+                            <a class="link" href="media.html">Media</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/third-party/jquery-2.2.4.min.js"></script>
+    <script src="js/third-party/bootstrap.min.js"></script>
+    <script src="js/ourBlog.js"></script>
+</body>
+
+</html>
